@@ -9,22 +9,20 @@
 from instapy import InstaPy
 from instapy import smart_run
 import random
+
 # login credentials
-insta_username = ''
-insta_password = ''
+insta_username = 'officialogene'
+insta_password = 'santabbgal1'
 
 tags= ['data','analysis','ai','ml','machinelearning','informationtechnology','java','python','roboti','programming','coding','tableau']
 users = ['urdatascientist','azurewill','pure.python','xyranks','data_science_learn','data__analysis','what_the_code',]
 # get a session!
 session = InstaPy(username=insta_username, password=insta_password)
 
-def man(i):
-    for i in range(-1.34,1.35):
-    return man
+
 with smart_run(session):
     # settings
     session.set_relationship_bounds(enabled=True,
-                                     potency_ratio=man,
                                     max_followers=2500,max_following=2200)
     
     #use the value of `False` to permanently turn it off
