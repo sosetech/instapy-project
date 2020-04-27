@@ -11,8 +11,8 @@ from instapy import smart_run
 import random
 
 # login credentials
-insta_username = 'officialogene'
-insta_password = 'santabbgal1'
+insta_username = ''
+insta_password = ''
 
 tags= ['data','analysis','ai','ml','machinelearning','informationtechnology','java','python','roboti','programming','coding','tableau']
 users = ['urdatascientist','azurewill','pure.python','xyranks','data_science_learn','data__analysis','what_the_code',]
