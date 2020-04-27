@@ -36,14 +36,14 @@ with smart_run(session):
     
     # activity
     session.like_by_tags(tags,
-                         amount=random.randint(30, 45), interact=True)
+                         amount=random.randint(5, 7), interact=True)
     
     session.follow_by_tags(tags,
-                         amount=random.randint(10, 12), interact=True) 
+                         amount=random.randint(3, 5), interact=True) 
     
     
-    session.like_by_feed(amount=random.randint(30, 35), randomize=True, interact=True)
+    session.like_by_feed(amount=random.randint(10, 13), randomize=True, interact=True)
     
-    session.follow_commenters(users, amount=5, daysold=365, max_pic = 100, sleep_delay=600, interact=True)
+    session.follow_commenters(users, amount=3, daysold=365, max_pic = 100, sleep_delay=600, interact=True)
     
-    session.unfollow_users(amount=random.randint(10, 15), instapy_followed_enabled=True, instapy_followed_param="nonfollowers", style="FIFO", unfollow_after=120*60*60, sleep_delay=600)
+    session.unfollow_users(amount=random.randint(5,7), instapy_followed_enabled=True, instapy_followed_param="nonfollowers", style="FIFO", unfollow_after=120*60*60, sleep_delay=600)
